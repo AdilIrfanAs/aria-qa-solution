@@ -1,5 +1,14 @@
 # Dcentric Health Dashboard
 
+## Start the Applications
+### To start the backend APIs, change the directory to api and run the command `npm start`
+### To start the frontend application, change the directory to app and run the command `npm start`
+
+## Run test cases
+### In order to run the defined test cases, run the command `npm test` inside the app directory
+
+
+
 ## I have make the recordings of the test cases in action. Below are the links attached for different test cases recorded.
 
 - If the wrong email and password are provided to the login API.
