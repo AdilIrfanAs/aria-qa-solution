@@ -1,6 +1,6 @@
 # Dcentric Health Dashboard
 
-## We have make the recordings of the testcase in action. Below are the links attached for different test case recorded.
+## I have make the recordings of the test cases in action. Below are the links attached for different test cases recorded.
 
 - If the wrong email and password are provided to the login API.
 https://www.loom.com/share/fc6102293fc0480f975a936600b70f75
