@@ -1,71 +1,15 @@
 # Dcentric Health Dashboard
 
-## Tech stacks
-- [Node version 14](https://nodejs.org/en/blog/release/v14.17.3/)
-- [React](https://reactjs.org/) for front-end framework
-- [Recoil](https://recoiljs.org/) for state management
-- [Tailwind](https://tailwindcss.com/) for front-end styling
-- [React Query](https://tanstack.com/query) for data fetching
-- [MySQL](https://www.mysql.com/)
-- [NestJS](https://nestjs.com/)
-- [Swagger](https://swagger.io/) for API documentation
+## We have make the recordings of the testcase in action. Below are the links attached for different test case recorded.
 
-## System Diagram
-![System Diagram](/docs/system-diagram.png)
+- If the wrong email and password are provided to the login API.
+https://www.loom.com/share/fc6102293fc0480f975a936600b70f75
 
-## Simple Demo
-![Demo](/docs/demo.gif)
+- Test case for creating an issue 
+https://www.loom.com/share/ec9e03cfb1ef4a8d96c2a55d23e7e033
 
-## Pages
-- Sign in page
-- Authenticated page
-- Create new issue page
-- Issue list page
+- Use case for failed test in case issue name's length is less than 5
+https://www.loom.com/share/97babf04ae1a4b8693fbd61640705ace
 
-## Endpoints
-- `GET /`: index endpoint for health check
-- `GET /docs`: swagger api documentation
-- `POST /auth/sign-up`: to register new user
-- `POST /auth/sign-in`: to log-in as a user
-- `GET /auth/profile`: to demonstrate the JWT endpoint guard 
-- `POST /issue`: to create new issue 
-- `GET /issue`: to get issue list
-- `GET /issue/statistics`: to get issue aggregates in daily basis
-
-## Quickstart
-```
-docker-compose -f docker-compose.dev.yaml up --build
-```
-
-## How to seed the database
-```
-cd api
-cp env.sample .env
-npm install
-npm run seed
-```
-
-## How to run unit tests
-```
-cd api
-npm run test
-```
-
-## Seeded user
-```
-email: admin@admin.com
-password: admin
-```
-
-## How to create a new user
-```
-curl -X 'POST' \
-  'http://0.0.0.0:8000/auth/sign-up' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "name": "admin",
-  "email": "admin@admin.com",
-  "password": "admin"
-}'
-```
+- Sussessfully running tests for listing, statistics and logout scenarios
+https://www.loom.com/share/6fe4f7fef1a24be293ab81c5dade431e
